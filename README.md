@@ -13,7 +13,7 @@ Key metrics to include:
 •  First and last order dates (to analyze customer lifecycle)
 •  Orders per customer over time (to see trends)
 ________________________________________
-3. Example SQL Queries
+3. SQL Queries
 a) Customer Order Summary
 SELECT
   customer_id,
