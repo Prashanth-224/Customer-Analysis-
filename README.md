@@ -14,7 +14,9 @@ Key metrics to include:
 •  Orders per customer over time (to see trends)
 ________________________________________
 3. SQL Queries
+   
 a) Customer Order Summary
+
 SELECT
   customer_id,
   COUNT(order_id) AS total_orders,
@@ -30,6 +32,7 @@ ORDER BY
 This query helps you identify repeat customers and segment them by order count and spending.
 ________________________________________
 b) Repeat vs. One-time Customers
+
 WITH customer_counts AS (
   SELECT customer_id, COUNT(order_id) AS total_orders
   FROM customer_orders
